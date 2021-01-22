@@ -1,0 +1,30 @@
+{
+  "name": "end2end",
+  "version": "1.0.0",
+  "description": "Functional testing",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch ./tests/uber.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandraphh/mds_b3_pham_alexandra_dev_end2end.git"
+  },
+  "author": "MDS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandraphh/mds_b3_pham_alexandra_dev_end2end.git"
+  },
+  "homepage": "https://github.com/alexandraphh/mds_b3_pham_alexandra_dev_end2end.git",
+  "dependencies": {
+    "chromedriver": "^87.0.7",
+    "geckodriver": "^1.21.1",
+    "selenium-server": "^3.141.59"
+  },
+  "devDependencies": {
+    "nightwatch": "^1.5.1"
+  }
+}
