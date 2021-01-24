@@ -1,27 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
-            failures="1"
-            tests="1">
+<testsuites errors="1"
+            failures="0"
+            tests="3">
 
   <testsuite name="uber"
-    errors="0" failures="1" hostname="" id="" package="uber" skipped="0"
-    tests="1" time="10.37" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="uber" skipped="0"
+    tests="3" time="34.13" timestamp="">
   
-    <testcase name="Demo test ecosia.org" classname="uber" time="10.37" assertions="5">
+    <testcase name="Open Uber Website" classname="uber" time="11.57" assertions="3">
 
     
 
     
-
-    
-
-      <failure message="Testing if element &lt;.mainline-results&gt; contains text &#39;Nightwatch.js&#39; in 5000ms - expected &#34;contains text &#39;Nightwatch.js&#39;&#34; but got: &#34;does not contain &#39;Nightwatch.js&#39;&#34; (5595ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\PHAM Alexandra\Desktop\MDS\cours\TP\test_endtotend\end2end_test-master\tests\uber.js:13:17)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
 
     
     </testcase>
   
+    <testcase name="Check block login in the header wrapper" classname="uber" time="8.297" assertions="1">
 
+    
+    </testcase>
+  
+    <testcase name="Check login in two sections" classname="uber" time="14.26" assertions="1">
+
+    
+    <error message="An error occurred while running .click() command on &lt;.dy dz bo ds e0 e1 e2 ct e3 e4 e5 e6 be e7 ca e8 e9 ea eb bi ec ed ee b8 b6 bj b7 bu c4 bv ef eq er es et ek el eu ev de cw eo ep dm&gt;: " type="error"><![CDATA[
+    NoSuchElementError: An error occurred while running .click() command on &lt;.dy dz bo ds e0 e1 e2 ct e3 e4 e5 e6 be e7 ca e8 e9 ea eb bi ec ed ee b8 b6 bj b7 bu c4 bv ef eq er es et ek el eu ev de cw eo ep dm&gt;: 
+    at ClickElement.noSuchElementError (C:\Users\PHAM Alexandra\Desktop\MDS\cours\TP\test_endtotend\end2end_test-master\node_modules\nightwatch\lib\element\command.js:399:12)
+    at Object.errorHandler (C:\Users\PHAM Alexandra\Desktop\MDS\cours\TP\test_endtotend\end2end_test-master\node_modules\nightwatch\lib\api\element-commands\_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (C:\Users\PHAM Alexandra\Desktop\MDS\cours\TP\test_endtotend\end2end_test-master\node_modules\nightwatch\lib\utils\periodic-promise.js:64:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;.dy dz bo ds e0 e1 e2 ct e3 e4 e5 e6 be e7 ca e8 e9 ea eb bi ec ed ee b8 b6 bj b7 bu c4 bv ef eq er es et ek el eu ev de cw eo ep dm&gt;: 
+   {&#34;sessionId&#34;:&#34;1bc95b2d84b938e39daa0b4e1406189dd55719a9&#34;,&#34;state&#34;:&#34;success&#34;,&#34;hCode&#34;:14110251,&#34;value&#34;:[],&#34;class&#34;:&#34;org.openqa.selenium.remote.Response&#34;,&#34;status&#34;:0}
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
   
 
     
